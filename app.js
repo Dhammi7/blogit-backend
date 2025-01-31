@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 8000;
-const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017/blogit-database";
+const MONGO_URL = process.env.MONGO_URL || "mongodb+srv://dhami:suran@cluster0.10w2b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 app.use(cors({ origin: '*' })); 
 app.use(express.json());
